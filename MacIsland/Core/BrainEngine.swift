@@ -13,7 +13,8 @@ class BrainEngine {
     private init() {}
 
     func surface(snapshot: ContextSnapshot) async -> [SurfacedItem] {
-        guard let apiKey = Secrets.anthropicAPIKey, !apiKey.isEmpty else {
+        guard AppState.shared.aiSurfacingEnabled,
+              let apiKey = Secrets.anthropicAPIKey, !apiKey.isEmpty else {
             return fallbackSurface(snapshot: snapshot)
         }
 

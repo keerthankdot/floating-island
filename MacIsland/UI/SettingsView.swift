@@ -7,15 +7,25 @@ struct SettingsView: View {
 
     var body: some View {
         Form {
-            Section("API Keys") {
-                SecureField("Anthropic API Key", text: $apiKey)
-                    .textFieldStyle(.roundedBorder)
-                Button("Save") { saveAPIKey() }
-                    .disabled(apiKey.isEmpty)
-                if savedBanner {
-                    Label("Saved", systemImage: "checkmark.circle.fill")
-                        .foregroundColor(.green)
-                        .font(.caption)
+            Section("AI Surfacing") {
+                Toggle(isOn: $state.aiSurfacingEnabled) {
+                    VStack(alignment: .leading, spacing: 2) {
+                        Text("Use Claude AI")
+                        Text("Smarter prioritization. Requires Anthropic API key.")
+                            .font(.caption)
+                            .foregroundColor(.secondary)
+                    }
+                }
+                if state.aiSurfacingEnabled {
+                    SecureField("Anthropic API Key", text: $apiKey)
+                        .textFieldStyle(.roundedBorder)
+                    Button("Save Key") { saveAPIKey() }
+                        .disabled(apiKey.isEmpty)
+                    if savedBanner {
+                        Label("Saved", systemImage: "checkmark.circle.fill")
+                            .foregroundColor(.green)
+                            .font(.caption)
+                    }
                 }
             }
 

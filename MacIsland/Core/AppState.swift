@@ -11,6 +11,7 @@ class AppState: ObservableObject {
     @Published var hasCalendarAccess: Bool = false
     @Published var hasRemindersAccess: Bool = false
     @Published var hasFullDiskAccess: Bool = false
+    @Published var aiSurfacingEnabled: Bool = false
 
     private init() {
         hasFullDiskAccess = WhatsAppSource.shared.hasDiskAccess()
