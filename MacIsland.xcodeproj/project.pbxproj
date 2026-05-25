@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01707DDD4F58C26F452381D2 /* SurfaceCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0475543D02D42205A4FC733C /* SurfaceCard.swift */; };
+		0528C8070705C392AEB9A16C /* MacIslandApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBE2492AE443A568F0906F2 /* MacIslandApp.swift */; };
+		17FB8B203166223687E7DDDD /* ContextSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212380EF134A4A9C9973F066 /* ContextSnapshot.swift */; };
+		2F51B51B130FDD6CC0CBF9C4 /* SurfacedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254E24FC42B60C1EE95C4814 /* SurfacedItem.swift */; };
+		3E85D75B9C4EBC9401024268 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846AEE65940DD4846AC12787 /* AppState.swift */; };
+		40AF87DC4709BC14CF8F09E0 /* RemindersSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB1E1793B6E810492EDF0B4 /* RemindersSource.swift */; };
+		4D0675C3BB94608811E49B63 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B262F4E9F73D8CA4CA9940 /* AppConfig.swift */; };
+		4D9D68CF292753F89A8CE7FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DD34DA56730AC5FF8936B7 /* AppDelegate.swift */; };
+		5045CF93BD9D2F78A1A43FDE /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA72B1A4ED453BB90B1F1DD /* Secrets.swift */; };
+		58BE5CE914FC7F0604AE010D /* CalendarSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E230D1713D3C9FFA1E067BE /* CalendarSource.swift */; };
+		7E988F6191B2C1BF311F1BA0 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01AC941FB7FCE525829FF22 /* DataSource.swift */; };
+		8BFAD030ADD4F6C25A6E0E60 /* ContextBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64381905A69FA2DB1F789CE /* ContextBuilder.swift */; };
+		97BFFA2963F322E793DC5B9B /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9774589308685BB910B14BE /* SettingsView.swift */; };
+		9F57111972CF4606E400B570 /* KeychainHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B6E107FC2283F8148492F7 /* KeychainHelper.swift */; };
+		B957985D298C4DF1899A38E8 /* WhatsAppSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B29386A7D7E6D2CC418BE5 /* WhatsAppSource.swift */; };
+		BAD42314D370DC07EA91D9EF /* BrainEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75246E33965671F7FDEFF0FC /* BrainEngine.swift */; };
+		C3390F9A1259058CA54AF2F2 /* MacIslandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF0396A71EB1D7394681F3D /* MacIslandTests.swift */; };
+		C98A4939C3643286EF101C79 /* PollingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBAD2926F7D90ABAF415DDC /* PollingManager.swift */; };
+		D1A8DBB162360A32F6624D56 /* IslandPopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9917F35367BF194AE1B58513 /* IslandPopover.swift */; };
+		F81235C147E148F32E0B9824 /* NotificationSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA305F721AB3E5EE6364900 /* NotificationSource.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E9694251629362909837BCAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D21AAB5087CF2FBB6AAB9A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A6B674474479EB5C100822D;
+			remoteInfo = MacIsland;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0475543D02D42205A4FC733C /* SurfaceCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurfaceCard.swift; sourceTree = "<group>"; };
+		0BF0396A71EB1D7394681F3D /* MacIslandTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacIslandTests.swift; sourceTree = "<group>"; };
+		212380EF134A4A9C9973F066 /* ContextSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextSnapshot.swift; sourceTree = "<group>"; };
+		254E24FC42B60C1EE95C4814 /* SurfacedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurfacedItem.swift; sourceTree = "<group>"; };
+		2FBE2492AE443A568F0906F2 /* MacIslandApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacIslandApp.swift; sourceTree = "<group>"; };
+		534A63DC50ADDF733805B738 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5BBAD2926F7D90ABAF415DDC /* PollingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollingManager.swift; sourceTree = "<group>"; };
+		5E230D1713D3C9FFA1E067BE /* CalendarSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarSource.swift; sourceTree = "<group>"; };
+		60B29386A7D7E6D2CC418BE5 /* WhatsAppSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsAppSource.swift; sourceTree = "<group>"; };
+		66CDEFE2050588AC0142DEF6 /* MacIslandTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacIslandTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69B262F4E9F73D8CA4CA9940 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		6AA72B1A4ED453BB90B1F1DD /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
+		73B6E107FC2283F8148492F7 /* KeychainHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainHelper.swift; sourceTree = "<group>"; };
+		75246E33965671F7FDEFF0FC /* BrainEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrainEngine.swift; sourceTree = "<group>"; };
+		846AEE65940DD4846AC12787 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		9917F35367BF194AE1B58513 /* IslandPopover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslandPopover.swift; sourceTree = "<group>"; };
+		C01AC941FB7FCE525829FF22 /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		C9DD34DA56730AC5FF8936B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CAA305F721AB3E5EE6364900 /* NotificationSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationSource.swift; sourceTree = "<group>"; };
+		DB9554FFEC962CD66D83381A /* MacIsland.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacIsland.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E64381905A69FA2DB1F789CE /* ContextBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextBuilder.swift; sourceTree = "<group>"; };
+		E9774589308685BB910B14BE /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		FFB1E1793B6E810492EDF0B4 /* RemindersSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersSource.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		03A4A5771CF22F736E152A35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB9554FFEC962CD66D83381A /* MacIsland.app */,
+				66CDEFE2050588AC0142DEF6 /* MacIslandTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C619D5297BC9C27ACE16EC8 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				9917F35367BF194AE1B58513 /* IslandPopover.swift */,
+				E9774589308685BB910B14BE /* SettingsView.swift */,
+				0475543D02D42205A4FC733C /* SurfaceCard.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		1E71B30EABB0B9E5E4B68449 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				846AEE65940DD4846AC12787 /* AppState.swift */,
+				75246E33965671F7FDEFF0FC /* BrainEngine.swift */,
+				E64381905A69FA2DB1F789CE /* ContextBuilder.swift */,
+				5BBAD2926F7D90ABAF415DDC /* PollingManager.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		6AA32CBF7EAD20179496F679 = {
+			isa = PBXGroup;
+			children = (
+				F7E174D90F0B2E3F22B5BF98 /* MacIsland */,
+				B86421EBEF3159B6B75ABC54 /* MacIslandTests */,
+				03A4A5771CF22F736E152A35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F5210C4805785D45F4D104E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				212380EF134A4A9C9973F066 /* ContextSnapshot.swift */,
+				C01AC941FB7FCE525829FF22 /* DataSource.swift */,
+				254E24FC42B60C1EE95C4814 /* SurfacedItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		86740E1444DB38EBECBA783C /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C9DD34DA56730AC5FF8936B7 /* AppDelegate.swift */,
+				2FBE2492AE443A568F0906F2 /* MacIslandApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		87CC8A24722185AA9EBF0506 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				69B262F4E9F73D8CA4CA9940 /* AppConfig.swift */,
+				73B6E107FC2283F8148492F7 /* KeychainHelper.swift */,
+				6AA72B1A4ED453BB90B1F1DD /* Secrets.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		B86421EBEF3159B6B75ABC54 /* MacIslandTests */ = {
+			isa = PBXGroup;
+			children = (
+				0BF0396A71EB1D7394681F3D /* MacIslandTests.swift */,
+			);
+			path = MacIslandTests;
+			sourceTree = "<group>";
+		};
+		DDD0D41707779D9FBD12EF15 /* DataSources */ = {
+			isa = PBXGroup;
+			children = (
+				5E230D1713D3C9FFA1E067BE /* CalendarSource.swift */,
+				CAA305F721AB3E5EE6364900 /* NotificationSource.swift */,
+				FFB1E1793B6E810492EDF0B4 /* RemindersSource.swift */,
+				60B29386A7D7E6D2CC418BE5 /* WhatsAppSource.swift */,
+			);
+			path = DataSources;
+			sourceTree = "<group>";
+		};
+		F7E174D90F0B2E3F22B5BF98 /* MacIsland */ = {
+			isa = PBXGroup;
+			children = (
+				534A63DC50ADDF733805B738 /* Info.plist */,
+				86740E1444DB38EBECBA783C /* App */,
+				87CC8A24722185AA9EBF0506 /* Config */,
+				1E71B30EABB0B9E5E4B68449 /* Core */,
+				DDD0D41707779D9FBD12EF15 /* DataSources */,
+				6F5210C4805785D45F4D104E /* Models */,
+				1C619D5297BC9C27ACE16EC8 /* UI */,
+			);
+			path = MacIsland;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A6B674474479EB5C100822D /* MacIsland */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA4DB0886A3C74C6322C80E6 /* Build configuration list for PBXNativeTarget "MacIsland" */;
+			buildPhases = (
+				B8098E1BB8E4121B5C4F67FD /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacIsland;
+			packageProductDependencies = (
+			);
+			productName = MacIsland;
+			productReference = DB9554FFEC962CD66D83381A /* MacIsland.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E69A9926587CABD59EEC09F9 /* MacIslandTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7B2796929218246B0A019D3 /* Build configuration list for PBXNativeTarget "MacIslandTests" */;
+			buildPhases = (
+				48CF8B23449B8B909A202CF8 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D59F00B016B26DE8ABC38B2 /* PBXTargetDependency */,
+			);
+			name = MacIslandTests;
+			packageProductDependencies = (
+			);
+			productName = MacIslandTests;
+			productReference = 66CDEFE2050588AC0142DEF6 /* MacIslandTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D21AAB5087CF2FBB6AAB9A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					4A6B674474479EB5C100822D = {
+						ProvisioningStyle = Automatic;
+					};
+					E69A9926587CABD59EEC09F9 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 77C8456E38F95BD00A469454 /* Build configuration list for PBXProject "MacIsland" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 6AA32CBF7EAD20179496F679;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 03A4A5771CF22F736E152A35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A6B674474479EB5C100822D /* MacIsland */,
+				E69A9926587CABD59EEC09F9 /* MacIslandTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48CF8B23449B8B909A202CF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3390F9A1259058CA54AF2F2 /* MacIslandTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8098E1BB8E4121B5C4F67FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D0675C3BB94608811E49B63 /* AppConfig.swift in Sources */,
+				4D9D68CF292753F89A8CE7FA /* AppDelegate.swift in Sources */,
+				3E85D75B9C4EBC9401024268 /* AppState.swift in Sources */,
+				BAD42314D370DC07EA91D9EF /* BrainEngine.swift in Sources */,
+				58BE5CE914FC7F0604AE010D /* CalendarSource.swift in Sources */,
+				8BFAD030ADD4F6C25A6E0E60 /* ContextBuilder.swift in Sources */,
+				17FB8B203166223687E7DDDD /* ContextSnapshot.swift in Sources */,
+				7E988F6191B2C1BF311F1BA0 /* DataSource.swift in Sources */,
+				D1A8DBB162360A32F6624D56 /* IslandPopover.swift in Sources */,
+				9F57111972CF4606E400B570 /* KeychainHelper.swift in Sources */,
+				0528C8070705C392AEB9A16C /* MacIslandApp.swift in Sources */,
+				F81235C147E148F32E0B9824 /* NotificationSource.swift in Sources */,
+				C98A4939C3643286EF101C79 /* PollingManager.swift in Sources */,
+				40AF87DC4709BC14CF8F09E0 /* RemindersSource.swift in Sources */,
+				5045CF93BD9D2F78A1A43FDE /* Secrets.swift in Sources */,
+				97BFFA2963F322E793DC5B9B /* SettingsView.swift in Sources */,
+				01707DDD4F58C26F452381D2 /* SurfaceCard.swift in Sources */,
+				2F51B51B130FDD6CC0CBF9C4 /* SurfacedItem.swift in Sources */,
+				B957985D298C4DF1899A38E8 /* WhatsAppSource.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0D59F00B016B26DE8ABC38B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A6B674474479EB5C100822D /* MacIsland */;
+			targetProxy = E9694251629362909837BCAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		09C7752297E6B66E8559156A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ascnd.macisland;
+				PRODUCT_NAME = MacIsland;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		4BD5397AA00A2DDC6E60285D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ascnd.macisland;
+				PRODUCT_NAME = MacIsland;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		4DF030AF1250DE0F7B8A3E43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_APP_SANDBOX = NO;
+				INFOPLIST_FILE = MacIsland/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ascnd.macisland;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		579A55CBAD28803E60460F0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacIsland.app/Contents/MacOS/MacIsland";
+			};
+			name = Release;
+		};
+		94F3760491B1E311ABEBA01E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacIsland.app/Contents/MacOS/MacIsland";
+			};
+			name = Debug;
+		};
+		BB876619A6400846C6DF5FB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_APP_SANDBOX = NO;
+				INFOPLIST_FILE = MacIsland/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ascnd.macisland;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77C8456E38F95BD00A469454 /* Build configuration list for PBXProject "MacIsland" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09C7752297E6B66E8559156A /* Debug */,
+				4BD5397AA00A2DDC6E60285D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AA4DB0886A3C74C6322C80E6 /* Build configuration list for PBXNativeTarget "MacIsland" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB876619A6400846C6DF5FB1 /* Debug */,
+				4DF030AF1250DE0F7B8A3E43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D7B2796929218246B0A019D3 /* Build configuration list for PBXNativeTarget "MacIslandTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94F3760491B1E311ABEBA01E /* Debug */,
+				579A55CBAD28803E60460F0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D21AAB5087CF2FBB6AAB9A3 /* Project object */;
+}

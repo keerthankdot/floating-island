@@ -1,0 +1,52 @@
+name: MacIsland
+options:
+  bundleIdPrefix: com.ascnd
+  deploymentTarget:
+    macOS: "14.0"
+  xcodeVersion: "15.0"
+  createIntermediateGroups: true
+
+settings:
+  base:
+    SWIFT_VERSION: "5.9"
+    MACOSX_DEPLOYMENT_TARGET: "14.0"
+    PRODUCT_BUNDLE_IDENTIFIER: com.ascnd.macisland
+    PRODUCT_NAME: MacIsland
+    CODE_SIGN_STYLE: Automatic
+    ENABLE_HARDENED_RUNTIME: YES
+
+targets:
+  MacIsland:
+    type: application
+    platform: macOS
+    sources:
+      - path: MacIsland
+        excludes:
+          - "**/*.md"
+    info:
+      path: MacIsland/Info.plist
+      properties:
+        CFBundleName: MacIsland
+        CFBundleDisplayName: Mac Island
+        CFBundleIdentifier: com.ascnd.macisland
+        CFBundleVersion: "1"
+        CFBundleShortVersionString: "1.0"
+        NSPrincipalClass: NSApplication
+        LSUIElement: true
+        NSCalendarsFullAccessUsageDescription: Mac Island needs calendar access to surface upcoming meetings.
+        NSRemindersFullAccessUsageDescription: Mac Island needs reminders access to surface due tasks.
+        NSUserNotificationUsageDescription: Mac Island needs notification access to surface messages.
+        com.apple.security.app-sandbox: false
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.ascnd.macisland
+        INFOPLIST_FILE: MacIsland/Info.plist
+        ENABLE_APP_SANDBOX: NO
+
+  MacIslandTests:
+    type: bundle.unit-test
+    platform: macOS
+    sources:
+      - path: MacIslandTests
+    dependencies:
+      - target: MacIsland
